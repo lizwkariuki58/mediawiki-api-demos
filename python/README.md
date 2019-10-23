@@ -145,6 +145,8 @@ Code snippets in Python demonstrating how to use various modules of the [MediaWi
   * [get_contributors.js](get_contributors.py): get request to list all logged-in contributors and count of anonymous contributors to a page
 * [API:Stashedit](https://www.mediawiki.org/wiki/API:Stashedit)
   * [stashedit.py](stashedit.py): Prepare an edit in shared cache
+* [API:Filearchive](https://www.mediawiki.org/wiki/API:Filearchive)
+  * [filearchive.py](filearchive.py): Enumerate all deleted files from filearchive table sequentially
 
 ### Search
 * [API:Search](https://www.mediawiki.org/wiki/API:Search)

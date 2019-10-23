@@ -11,3 +11,5 @@ These code snippets are usefull to create Userscripts and Gadgets.
 ### Accounts and users
 * [API:Rsd](https://www.mediawiki.org/wiki/API:Rsd)
   *  [rsd.js](rsd.js): export an RSD schema
+* [API:Filearchive](https://www.mediawiki.org/wiki/API:Filearchive)
+  * [filearchive.js](filearchive.js): Enumerate all deleted files from filearchive table sequentially

@@ -71,6 +71,8 @@ Code snippets in Javascript demonstrating how to use various modules of the [Med
   * [get_contributors.js](get_contributors.js): get request to list all logged-in contributors and count of anonymous contributors to a page
 * [API:Stashedit](https://www.mediawiki.org/wiki/API:Stashedit)
   * [stashedit.js](stashedit.js): Prepare an edit in shared cache
+* [API:Filearchive](https://www.mediawiki.org/wiki/API:Filearchive)
+  * [filearchive.js](filearchive.js): Enumerate all deleted files from filearchive table sequentially
 
 ### Search
 * [API:Search](https://www.mediawiki.org/wiki/API:Search)

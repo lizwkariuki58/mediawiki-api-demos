@@ -139,6 +139,8 @@ Code snippets in PHP demonstrating how to use various modules of the [MediaWiki 
   * [get_contributors.js](get_contributors.php): get request to list all logged-in contributors and count of anonymous contributors to a page
 * [API:Stashedit](https://www.mediawiki.org/wiki/API:Stashedit)
   * [stashedit.php](stashedit.php): Prepare an edit in shared cache
+* [API:Filearchive](https://www.mediawiki.org/wiki/API:Filearchive)
+  * [filearchive.php](filearchive.php): Enumerate all deleted files from filearchive table sequentially
 
 ### Search
 * [API:Search](https://www.mediawiki.org/wiki/API:Search)
