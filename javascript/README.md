@@ -13,6 +13,8 @@ Code snippets in Javascript demonstrating how to use various modules of the [Med
 * [API:Watchlist feed](https://www.mediawiki.org/wiki/API:Watchlist_feed)
   * [get_my_watchlist_feed.js](get_my_watchlist_feed.js): access an RSS feed of your own watchlist
   * [get_user_watchlist_feed.js](get_user_watchlist_feed.js): access an RSS feed of another user's watchlist
+* [API:Rsd](https://www.mediawiki.org/wiki/API:Rsd)
+  *  [rsd.js](rsd.js): export an RSD schema
 
 ### Page Operations
 * [API:Parse](https://www.mediawiki.org/wiki/API:Parse)
@@ -31,6 +33,8 @@ Code snippets in Javascript demonstrating how to use various modules of the [Med
 * [API:Revisions](https://www.mediawiki.org/wiki/API:Revisions)
   *  [get_pages_revisions.js](get_pages_revisions.js): get revision data of multiple pages
   *  [get_filtered_page_revisions.js](get_filtered_page_revisions.js): get revision data of a page filtered by date and user
+* [API:Alldeletedrevisions](https://www.mediawiki.org/wiki/API:Alldeletedrevisions)
+  *  [get_alldeletedrevs.js](get_alldeletedrevs.js): get all deleted revision data by a user or in a namespace.
 * [API:Links](https://www.mediawiki.org/wiki/API:Links)
   *  [get_links.js](get_links.js): get links embedded on a page
   *  [get_red_links.js](get_red_links.js): get the first twenty red links in a page
@@ -63,8 +67,10 @@ Code snippets in Javascript demonstrating how to use various modules of the [Med
 * [API:Mergehistory](https://www.mediawiki.org/wiki/API:Mergehistory)
   * [mergehistory.js](mergehistory.js): Merge the page revisions of Oldpage
     dating up to 2015-12-31T04:37:41Z into Newpage
-* [API:FileArchive](https://www.mediawiki.org/wiki/User:Liz_Kariuki/Sandbox/API:Filearchive)
-  * [filearchive.js](filearchive.js): Enumerate all deleted files sequentially.
+* [API:Contributors](https://www.mediawiki.org/wiki/API:Contributors)
+  * [get_contributors.js](get_contributors.js): get request to list all logged-in contributors and count of anonymous contributors to a page
+* [API:Stashedit](https://www.mediawiki.org/wiki/API:Stashedit)
+  * [stashedit.js](stashedit.js): Prepare an edit in shared cache
 
 ### Search
 * [API:Search](https://www.mediawiki.org/wiki/API:Search)

@@ -33,6 +33,8 @@ Code snippets in Python demonstrating how to use various modules of the [MediaWi
   * [get_watchlist.py](get_watchlist.py): get the currently logged-in user's watchlist
 * [API:Watchlistraw](https://www.mediawiki.org/wiki/API:Watchlistraw)
   * [get_watchlistraw.py](get_watchlistraw.py): get three pages on the logged-in user's watchlist from the main namespace
+* [API:Rsd](https://www.mediawiki.org/wiki/API:Rsd)
+  * [rsd.py](rsd.py): export an RSD schema
 
 ### Page Operations
 * [API:Parse](https://www.mediawiki.org/wiki/API:Parse)
@@ -59,7 +61,9 @@ Code snippets in Python demonstrating how to use various modules of the [MediaWi
   *  [get_pages_revisions.py](get_pages_revisions.py): get revision data of multiple pages
   *  [get_filtered_page_revisions.py](get_filtered_page_revisions.py): get revision data of a page filtered by date and user
 * [API:Allrevisions](https://www.mediawiki.org/wiki/API:Allrevisions)
-  *  [get_allrevisions.py](python/get_allrevisions.py): get revision data of multiple pages and users
+  *  [get_allrevisions.py](get_allrevisions.py): get revision data of multiple pages and users
+* [API:Alldeletedrevisions](https://www.mediawiki.org/wiki/API:Alldeletedrevisions)
+  *  [get_alldeletedrevs.py](get_alldeletedrevs.py): get all deleted revision data by a user or in a namespace.
 * [API:Links](https://www.mediawiki.org/wiki/API:Links)
   *  [get_links.py](get_links.py): get links embedded on a page
   *  [get_red_links.py](get_red_links.py): get the first twenty red links in a page
@@ -137,8 +141,10 @@ Code snippets in Python demonstrating how to use various modules of the [MediaWi
 * [API:Mergehistory](https://www.mediawiki.org/wiki/API:Mergehistory)
   * [mergehistory.py](mergehistory.py): Merge the page revisions of Oldpage
     dating up to 2015-12-31T04:37:41Z into Newpage
-* [API:FileArchive](https://www.mediawiki.org/wiki/User:Liz_Kariuki/Sandbox/API:Filearchive)
-  * [filearchive.py](filearchive.py): Enumerate all deleted files sequentially.
+* [API:Contributors](https://www.mediawiki.org/wiki/API:Contributors)
+  * [get_contributors.js](get_contributors.py): get request to list all logged-in contributors and count of anonymous contributors to a page
+* [API:Stashedit](https://www.mediawiki.org/wiki/API:Stashedit)
+  * [stashedit.py](stashedit.py): Prepare an edit in shared cache
 
 ### Search
 * [API:Search](https://www.mediawiki.org/wiki/API:Search)
